@@ -381,6 +381,40 @@ footer {
         margin-left: 0;
     }
 }
+
+.reviews {
+    background: #eae5dd;
+    text-align: center;
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 25px;
+    max-width: 1200px;
+    margin: 40px auto 0;
+}
+
+.review-card {
+    background: #fffdf9;
+    border: 1px solid #d9d0c4;
+    padding: 25px;
+    text-align: left;
+}
+
+.review-card h3 {
+    margin-top: 0;
+}
+
+.review-meta {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd5c9;
+}
+
+.review-meta p {
+    margin: 6px 0;
+}
     </style>
 </head>
 
@@ -392,6 +426,7 @@ footer {
             <a href="#performances">Events</a>
             <a href="#repertoire">Music</a>
             <a href="#contact">Booking</a>
+            <a href="#reviews">Reviews</a>
         </nav>
     </header>
 
@@ -574,7 +609,7 @@ footer {
             </p>
 
             <form class="booking-form"
-                action="https://formspree.io/f/mqpqgeen" method="POST">
+                action="https://formspree.io/f/myewbyrk" method="POST">
 
                 <div class="form-row">
                     <div>
@@ -627,6 +662,72 @@ footer {
             <div class="back-top">
                 <a href="#home">↑ Back to Top</a>
             </div>
+        </section>
+
+        <section id="reviews" class="content reviews">
+
+            <div class="eyebrow">Client Reviews</div>
+
+            <h2>What Clients Are Saying</h2>
+
+            <div class="reviews-grid">
+
+                <div class="review-card">
+                    <h3>Wonderful addition to our party!</h3>
+
+                    <p>
+                        We wanted to add something extra to a luncheon for my parents' 50th anniversary and we
+                        were lucky enough to find Ken...
+                    </p>
+
+                    <div class="review-meta">
+                        <p><strong>Rating:</strong> ★★★★★</p>
+                        <p><strong>Reviewer:</strong> Michelle R</p>
+                        <p><strong>Event Date:</strong> August 21, 2026</p>
+                        <p><strong>Services Provided:</strong> Keyboard Player</p>
+                    </div>
+                </div>
+
+                <div class="review-card">
+                    <h3>Excellent pianist</h3>
+
+                    <p>
+                        Ken was very professional, accommodating and fun to be around. He made the Christmas
+                        party extra fun by bringing a microphone so we could do Christmas carols.
+                    </p>
+
+                    <div class="review-meta">
+                        <p><strong>Rating:</strong> ★★★★★</p>
+                        <p><strong>Reviewer:</strong> Barbara Burge</p>
+                        <p><strong>Event Date:</strong> December 19, 2025</p>
+                        <p><strong>Services Provided:</strong> Pianist</p>
+                    </div>
+                </div>
+
+                <div class="review-card">
+
+                    <h3>Great job</h3>
+
+                    <p>
+                        Ken did a wonderful job. He kept the guests entertained and was able to
+                        adapt to all needs.
+                    </p>
+
+                    <div class="review-meta">
+                        <p><strong>Rating:</strong> ★★★★★</p>
+                        <p><strong>Reviewer:</strong> Jeffrey Ackerman</p>
+                        <p><strong>Event Date:</strong> March 21, 2026</p>
+                        <p><strong>Services Provided:</strong> Keyboard Player</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="back-top">
+                <a href="#home">↑ Back to Top</a>
+            </div>
+
         </section>
 
     </main>

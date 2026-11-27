@@ -40,7 +40,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding: 25px 7%;
     gap: 20px;
 }
@@ -50,6 +50,20 @@ header .brand {
     font-size: 1.5rem;
     letter-spacing: .08em;
     text-decoration: none;
+}
+
+.knot-badge {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.knot-badge img {
+    width: 150px;
+    height: auto;
+    display: block;
 }
 
 nav {
@@ -421,6 +435,7 @@ footer {
 <body>
     <header>
         <a class="brand" href="#home">KEN MULZET</a>
+
         <nav>
             <a href="#about">About</a>
             <a href="#performances">Events</a>
@@ -428,6 +443,13 @@ footer {
             <a href="#contact">Booking</a>
             <a href="#reviews">Reviews</a>
         </nav>
+
+        <a class="knot-badge"
+        target="_blank"
+        href="https://www.theknot.com/marketplace/redirect-2111315?utm_source=vendor_website&utm_medium=banner&utm_term=1dc9f783-d5be-4119-949f-af69b867d503&utm_campaign=vendor_badge_assets">
+            <img alt="As Seen on The Knot"
+                src="https://d13ns7kbjmbjip.cloudfront.net/For_Your_Website/TK-badge_AsSeen.png">
+        </a>
     </header>
 
     <main>
@@ -682,7 +704,7 @@ footer {
 
                     <div class="review-meta">
                         <p><strong>Rating:</strong> ★★★★★</p>
-                        <p><strong>Reviewer:</strong> Michelle R.</p>
+                        <p><strong>Reviewer:</strong> Michelle R</p>
                         <p><strong>Event Date:</strong> August 21, 2026</p>
                         <p><strong>Services Provided:</strong> Keyboard Player</p>
                     </div>
